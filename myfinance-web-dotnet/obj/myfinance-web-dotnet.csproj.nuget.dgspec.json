@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mirellaa\\Documents\\Yo\\my-finance\\myfinance-web-dotnet\\myfinance-web-dotnet.csproj": {}
+    "C:\\Users\\mirellaa\\Documents\\Yo\\my-finance\\myfinance-web-dotnet\\myfinance-web-dotnet\\myfinance-web-dotnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mirellaa\\Documents\\Yo\\my-finance\\myfinance-web-dotnet\\myfinance-web-dotnet.csproj": {
+    "C:\\Users\\mirellaa\\Documents\\Yo\\my-finance\\myfinance-web-dotnet\\myfinance-web-dotnet\\myfinance-web-dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mirellaa\\Documents\\Yo\\my-finance\\myfinance-web-dotnet\\myfinance-web-dotnet.csproj",
+        "projectUniqueName": "C:\\Users\\mirellaa\\Documents\\Yo\\my-finance\\myfinance-web-dotnet\\myfinance-web-dotnet\\myfinance-web-dotnet.csproj",
         "projectName": "myfinance-web-dotnet",
-        "projectPath": "C:\\Users\\mirellaa\\Documents\\Yo\\my-finance\\myfinance-web-dotnet\\myfinance-web-dotnet.csproj",
+        "projectPath": "C:\\Users\\mirellaa\\Documents\\Yo\\my-finance\\myfinance-web-dotnet\\myfinance-web-dotnet\\myfinance-web-dotnet.csproj",
         "packagesPath": "C:\\Users\\mirellaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mirellaa\\Documents\\Yo\\my-finance\\myfinance-web-dotnet\\obj\\",
+        "outputPath": "C:\\Users\\mirellaa\\Documents\\Yo\\my-finance\\myfinance-web-dotnet\\myfinance-web-dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mirellaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
